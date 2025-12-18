@@ -7,7 +7,7 @@ readTime: "5 min"
 path: "posts/how-to-take-notes.md"
 ---
 
-![A desk with scattered notes connected by threads, illustrating the Zettelkasten concept](https://source.unsplash.com/1200x630/?notes,ideas,mindmap)
+![A desk with scattered notes connected by threads, illustrating the Zettelkasten concept](images/zettelkasten.jpg)
 
 *Writen with AI to use as an example
 

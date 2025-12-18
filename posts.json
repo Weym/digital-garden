@@ -9,7 +9,7 @@
     ],
     "readTime": "5 min",
     "path": "posts/how-to-take-notes.md",
-    "coverImage": "assets/zettelkasten.jpg"
+    "coverImage": "images/zettelkasten.jpg"
   },
   {
     "slug": "my-setup-2025",
@@ -21,7 +21,7 @@
     ],
     "readTime": "3 min",
     "path": "posts/my-setup.md",
-    "coverImage": "assets/setup-2025.jpg"
+    "coverImage": "images/setup-2025.jpg"
   },
   {
     "slug": "coding-burnout",
@@ -33,7 +33,7 @@
     ],
     "readTime": "4 min",
     "path": "posts/managing-burnout.md",
-    "coverImage": "assets/burnout.jpg"
+    "coverImage": "images/burnout.jpg"
   },
   {
     "slug": "my-first-post",
@@ -43,6 +43,6 @@
     "category": ["New"],
     "readTime": "1 min",
     "path": "posts/my-first-post.md",
-    "coverImage": "assets/burnout.jpg"
+    "coverImage": "images/books.jpg"
   }
 ]

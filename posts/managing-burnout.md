@@ -7,7 +7,7 @@ readTime: "4 min"
 path: "posts/managing-burnout.md"
 ---
 
-![A peaceful forest path away from technology](https://source.unsplash.com/1200x630/?nature,forest,peaceful)
+![A peaceful forest path away from technology](images/burnout.jpg)
 
 *Writen with AI to use as an example
 

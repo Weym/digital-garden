@@ -7,7 +7,7 @@ readTime: "3 min"
 path: "posts/my-setup.md"
 ---
 
-![A clean, minimalist white desk setup with a PC tower and dual monitors](https://source.unsplash.com/1200x630/?minimalist,desk,setup,white)
+![A clean, minimalist white desk setup with a PC tower and dual monitors](images/setup-2025.jpg)
 
 *Writen with AI to use as an example
 
