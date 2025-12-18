@@ -2,33 +2,37 @@
   {
     "slug": "how-to-take-notes",
     "title": "How to use Zettelkasten to take smart notes",
-    "date": "2025-12-18",
-    "category": ["Study"],
+    "subtitle": "Stop collecting information and start generating knowledge.",
+    "date": "December 18, 2025",
+    "category": [
+      "Study"
+    ],
     "readTime": "5 min",
-    "path": "posts/how-to-take-notes.md"
+    "path": "posts/how-to-take-notes.md",
+    "coverImage": "images/zettelkasten.jpg"
   },
   {
     "slug": "my-setup-2025",
     "title": "My Developer Setup for 2025",
-    "date": "2025-11-05",
-    "category": ["Hardware"],
+    "subtitle": "A minimalist white workspace powered by the Ryzen 5600X.",
+    "date": "November 05, 2025",
+    "category": [
+      "Hardware"
+    ],
     "readTime": "3 min",
-    "path": "posts/my-setup.md"
+    "path": "posts/my-setup.md",
+    "coverImage": "images/setup-2025.jpg"
   },
   {
-    "slug": "my-first-post",
-    "title": "My First Post",
-    "date": "2025-12-17",
-    "category": ["Tech"],
-    "readTime": "1 min",
-    "path": "posts/my-first-post.md"
-  },
-  {
-  "slug": "coding-burnout",
-  "title": "It's Okay to Be Offline: Managing Dev Burnout",
-  "date": "2025-12-19",
-  "category": ["Health"],
-  "readTime": "4 min",
-  "path": "posts/managing-burnout.md"
-}
+    "slug": "coding-burnout",
+    "title": "It's Okay to Be Offline: Managing Dev Burnout",
+    "subtitle": "Why rest is an engineering problem, not a weakness.",
+    "date": "December 01, 2025",
+    "category": [
+      "Health"
+    ],
+    "readTime": "4 min",
+    "path": "posts/managing-burnout.md",
+    "coverImage": "images/burnout.jpg"
+  }
 ]
