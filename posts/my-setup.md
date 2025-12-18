@@ -9,7 +9,7 @@ path: "posts/my-setup.md"
 
 ![A clean, minimalist white desk setup with a PC tower and dual monitors](images/setup-2025.jpg)
 
-*Writen with AI to use as an example
+**Writen with AI to use as an example**
 
 As we near the end of 2025, I’ve finally settled into a desk configuration that feels completely dialed in. Over the years, I've oscillated between maxing out specs and trying to work off just a laptop. This year, I found the perfect middle ground: a powerful desktop tower housed in an intentionally calm, minimalist environment.
 

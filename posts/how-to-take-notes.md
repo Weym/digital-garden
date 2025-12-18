@@ -9,7 +9,7 @@ path: "posts/how-to-take-notes.md"
 
 ![A desk with scattered notes connected by threads, illustrating the Zettelkasten concept](images/zettelkasten.jpg)
 
-*Writen with AI to use as an example
+**Writen with AI to use as an example.** But if you are reading this, actually read and search about it. Zettelkasten is great.
 
 Do you ever read an insightful non-fiction book, highlight half the pages, and then six months later realize you remember almost nothing of substance?
 

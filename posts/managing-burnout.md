@@ -9,7 +9,7 @@ path: "posts/managing-burnout.md"
 
 ![A peaceful forest path away from technology](images/burnout.jpg)
 
-*Writen with AI to use as an example
+**Writen with AI to use as an example**
 
 Last month, I sat down to fix a simple CSS bug. It was a padding issue—something that should have taken five minutes. Two hours later, I was staring blankly at the screen, feeling a level of exhaustion that sleep couldn't fix.
 
