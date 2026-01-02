@@ -4,7 +4,7 @@ This project applies almost every topic we've covered: Objects, Array filtering/
 
 '''js
 const taskManager = {
-owner: 'Mosh',
+owner: 'John',
 tasks: [],
 
     // Getter to see progress
