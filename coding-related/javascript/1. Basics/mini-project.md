@@ -2,57 +2,55 @@
 
 This project applies almost every topic we've covered: Objects, Array filtering/reducing, Error Handling, and `this` context.
 
-'''js
+```js
 const taskManager = {
-owner: 'John',
-tasks: [],
+  owner: "John",
+  tasks: [],
 
-    // Getter to see progress
-    get stats() {
-        const completed = this.tasks.filter(t => t.isDone).length;
-        return `${this.owner}'s Progress: ${completed}/${this.tasks.length} tasks done.`;
-    },
+  // Getter to see progress
+  get stats() {
+    const completed = this.tasks.filter(t => t.isDone).length
+    return `${this.owner}'s Progress: ${completed}/${this.tasks.length} tasks done.`
+  },
 
-    // Method using Rest Operator to add multiple tasks at once
-    addTasks(...taskNames) {
-        taskNames.forEach(name => {
-            this.tasks.push({ id: Date.now() + Math.random(), name, isDone: false });
-        });
-    },
+  // Method using Rest Operator to add multiple tasks at once
+  addTasks(...taskNames) {
+    taskNames.forEach(name => {
+      this.tasks.push({ id: Date.now() + Math.random(), name, isDone: false })
+    })
+  },
 
-    // Method using Setters and Error Handling
-    set updateTaskStatus(taskId) {
-        const task = this.tasks.find(t => t.id === taskId);
-        if (!task) throw new Error("Task ID not found.");
-        task.isDone = true;
-    },
+  // Method using Setters and Error Handling
+  set updateTaskStatus(taskId) {
+    const task = this.tasks.find(t => t.id === taskId)
+    if (!task) throw new Error("Task ID not found.")
+    task.isDone = true
+  },
 
-    // Using Arrow Functions to maintain 'this' context while iterating
-    printSummary() {
-        console.log(`Summary for ${this.owner}:`);
-        this.tasks.forEach(task => {
-            const status = task.isDone ? '✅' : '❌';
-            console.log(`${status} - ${task.name}`);
-        });
-    }
-
-};
+  // Using Arrow Functions to maintain 'this' context while iterating
+  printSummary() {
+    console.log(`Summary for ${this.owner}:`)
+    this.tasks.forEach(task => {
+      const status = task.isDone ? "✅" : "❌"
+      console.log(`${status} - ${task.name}`)
+    })
+  },
+}
 
 // --- Execution ---
 try {
-taskManager.addTasks('Learn Objects', 'Master Arrays', 'Understand Functions');
+  taskManager.addTasks("Learn Objects", "Master Arrays", "Understand Functions")
 
-    // Simulating completing the first task
-    const firstId = taskManager.tasks[0].id;
-    taskManager.updateTaskStatus = firstId;
+  // Simulating completing the first task
+  const firstId = taskManager.tasks[0].id
+  taskManager.updateTaskStatus = firstId
 
-    console.log(taskManager.stats);
-    taskManager.printSummary();
-
+  console.log(taskManager.stats)
+  taskManager.printSummary()
 } catch (e) {
-console.error(e.message);
+  console.error(e.message)
 }
-'''
+```
 
 ---
 
