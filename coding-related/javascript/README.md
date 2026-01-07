@@ -7,25 +7,21 @@ This repository contains curated learning notes and small projects covering fund
 - `1. Basics`
 
   - [`1. Basics.md`](./1.%20Basics/1.%20Basics.md) — Overview and starting notes for JavaScript fundamentals
-  - `2. Operators.md` — Operators: arithmetic, logical, comparison, assignment, etc.
-  - `3. Control Flow.md` — Control flow: conditionals and loops
-  - `4. Objects.md` — Objects: creation, properties, and manipulation
-  - `5. Arrays.md` — Arrays: methods and common patterns
-  - `6. Functions.md` — Functions: declarations, expressions, scopes, and closures
-  - `mini-project.md` — Mini project that applies basic concepts
+  - [`2. Operators.md`](./1.%20Basics/2.%20Operators.md) — Operators: arithmetic, logical, comparison, assignment, etc.
+  - [`3. Control Flow.md`](./1.%20Basics/3.%20Control%20Flow.md) — Control flow: conditionals and loops
+  - [`4. Objects.md`](./1.%20Basics/4.%20Objects.md) — Objects: creation, properties, and manipulation
+  - [`5. Arrays.md`](./1.%20Basics/5.%20Arrays.md) — Arrays: methods and common patterns
+  - [`6. Functions.md`](./1.%20Basics/6.%20Functions.md) — Functions: declarations, expressions, scopes, and closures
+  - [`mini-project.md`](./1.%20Basics/mini-project.md) — Mini project that applies basic concepts
 
 - `2. OOP`
-  - `1. Prototypes.md` — Prototype-based inheritance and prototype chains
-  - `2. Prototypal Inheritance.md` — Patterns of inheriting via prototypes
-  - `3. ES6 Classes.md` — Class syntax and sugar over prototypes
-  - `4. ES6 Modules.md` — Modules: import/export and module organization
-  - `5. Asynchronous JavaScript` — Asynchronous patterns (promises, async/await, callbacks)
-  - `challenge.md` — Challenge descriptions
-  - `challenge-solution.md` — Solutions to challenges
-  - `project.md` — Project notes and instructions
-  - `challenge-solution/Cart.mjs` — Example module: Cart
-  - `challenge-solution/main.mjs` — Example module: entry point
-  - `challenge-solution/Product.mjs` — Example module: Product
+  - [`1. Prototypes.md`](./2.%20OOP/1.%20Prototypes.md) — Prototype-based inheritance and prototype chains
+  - [`2. Prototypal Inheritance.md`](./2.%20OOP/2.%20Prototypal%20Inheritance.md) — Patterns of inheriting via prototypes
+  - [`3. ES6 Classes.md`](./2.%20OOP/3.%20ES6%20Classes.md) — Class syntax and sugar over prototypes
+  - [`4. ES6 Modules.md`](./2.%20OOP/4.%20ES6%20Modules.md) — Modules: import/export and module organization
+  - [`5. AsynchronousJavaScript`](./2.%20OOP/5.%20Asynchronous%20JavaScript.md) — Asynchronous patterns (promises, async/await, callbacks)
+  - [`challenge.md`](./2.%20OOP/challenge.md) — Challenge descriptions
+  - [`challenge-solution.md`](./2.%20OOP/challenge-solution.md) — Solutions to challenges
 
 ## How to use
 
