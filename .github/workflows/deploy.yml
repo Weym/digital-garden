@@ -25,4 +25,4 @@ jobs:
           # 4. Puxa as novidades
           git pull
           
-          echo "Projeto atualizado com sucesso!"
+          echo "Deploy automático funcionando!"
