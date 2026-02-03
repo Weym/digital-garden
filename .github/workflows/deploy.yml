@@ -3,7 +3,7 @@ name: CI/CD Deploy Teste
 on:
   push:
     branches:
-      - feature/setup-cicd
+      - main
 
 jobs:
   deploy:
