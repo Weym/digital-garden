@@ -1,28 +1,12 @@
-name: CI/CD Deploy Teste
+name: CI-CD-Teste
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
   deploy:
     runs-on: self-hosted
     steps:
-      - name: Checkout do código
-        uses: actions/checkout@v4
-
-      - name: Atualizar pasta do servidor
-        run: |
-          echo "Iniciando atualização em /home/wey/tst-cdci/digital-garden"
-          
-          # 1. Entra direto na pasta onde o Git está configurado
-          cd /home/wey/tst-cdci/digital-garden
-          
-          # 3. Limpa lixo ou alterações locais para não travar o pull
-          git reset --hard
-          
-          # 4. Puxa as novidades
-          git pull
-          
-          echo "Deploy automático funcionando!"
+      - name: Teste de Comando
+        run: echo "O Runner recebeu este comando!"
